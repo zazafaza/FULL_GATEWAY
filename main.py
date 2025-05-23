@@ -202,8 +202,6 @@ def run_bot():
     global last_report_time
     send_telegram_message("🚀 البوت يعمل الآن...")
     symbols = get_all_usdt_symbols()
-    ...
-
 
     while True:
         try:
